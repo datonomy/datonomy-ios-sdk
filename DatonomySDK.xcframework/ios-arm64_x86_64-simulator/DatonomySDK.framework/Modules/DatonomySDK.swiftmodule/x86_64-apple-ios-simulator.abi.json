@@ -1,0 +1,104 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DatonomyApp",
+        "printedName": "DatonomyApp",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DatonomyApp",
+                "printedName": "DatonomySDK.DatonomyApp",
+                "usr": "s:11DatonomySDK0A3AppC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatonomySDK0A3AppC6sharedACvpZ",
+            "mangledName": "$s11DatonomySDK0A3AppC6sharedACvpZ",
+            "moduleName": "DatonomySDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DatonomyApp",
+                    "printedName": "DatonomySDK.DatonomyApp",
+                    "usr": "s:11DatonomySDK0A3AppC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatonomySDK0A3AppC6sharedACvgZ",
+                "mangledName": "$s11DatonomySDK0A3AppC6sharedACvgZ",
+                "moduleName": "DatonomySDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DatonomySDK0A3AppC9configureyyF",
+            "mangledName": "$s11DatonomySDK0A3AppC9configureyyF",
+            "moduleName": "DatonomySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11DatonomySDK0A3AppC",
+        "mangledName": "$s11DatonomySDK0A3AppC",
+        "moduleName": "DatonomySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

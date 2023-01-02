@@ -1,0 +1,11 @@
+framework module DatonomySDK {
+  umbrella header "DatonomySDK.h"
+
+  export *
+  module * { export * }
+}
+
+module DatonomySDK.Swift {
+  header "DatonomySDK-Swift.h"
+  requires objc
+}
