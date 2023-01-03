@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.platform                  = :ios
   s.ios.deployment_target     = '13.0'
-  s.source                    = { :git => 'https://github.com/datonomy/datonomy-sdk-ios.git', :tag => s.version.to_s }
+  s.source                    = { :git => 'https://github.com/datonomy/datonomy-ios-sdk.git', :tag => s.version.to_s }
 
   s.vendored_frameworks       = "DatonomySDK.xcframework"
   s.swift_versions            = ['5.0']
